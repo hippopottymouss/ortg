@@ -264,8 +264,8 @@ var mousemove = function(d) {
             "<br>ORTG: " + d.ortg + "</br>"
 
            )
-      .style("left", (d3.mouse(this)[0]+ 40) + "px")
-      .style("top", (d3.mouse(this)[1] + 1000) + "px")
+      .style("left", (d3.mouse(this)[0]+ 50) + "px")
+      .style("top", (d3.mouse(this)[1] + 40) - "px")
   }
 
 var mouseleave = function(d) {
