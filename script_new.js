@@ -265,7 +265,7 @@ var mousemove = function(d) {
 
            )
       .style("left", (d3.mouse(this)[0]+ 50) + "px")
-      .style("top", (d3.mouse(this)[1] + 40) - "px")
+      .style("top", (d3.mouse(this)[1] - 40) + "px")
   }
 
 var mouseleave = function(d) {
